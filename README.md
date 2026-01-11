@@ -1,3 +1,7 @@
+
+## Deployed link to the project 
+https://comparisonui.vercel.app/
+
 # Product Comparison UI
 
 A modern, responsive product comparison application built with React, Vite, and Tailwind CSS. Users can browse products, select up to 3 items for comparison, and view detailed side-by-side specifications.
@@ -169,3 +173,4 @@ MIT License - feel free to use this project for learning or as a starting point 
 ---
 
 Built with ❤️ using React + Vite + Tailwind CSS
+
