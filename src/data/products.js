@@ -1,0 +1,178 @@
+export const products = [
+  {
+    id: 1,
+    name: "iPhone 15 Pro Max",
+    brand: "Apple",
+    price: "Rs. 1,19,999.99",
+    priceValue: 119999,
+    image:
+      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=500&h=500&fit=crop",
+    features: [
+      "A17 Pro chip for blazing performance",
+      "6.7-inch Super Retina XDR display",
+      "48MP main camera with 5x telephoto",
+    ],
+    specs: {
+      display: "6.7-inch",
+      battery: "4422 mAh",
+      storage: "256GB - 1TB",
+      camera: "48MP + 12MP + 12MP",
+      processor: "A17 Pro",
+      ram: "8GB",
+    },
+  },
+  {
+    id: 2,
+    name: "Samsung Galaxy S24 Ultra",
+    brand: "Samsung",
+    price: "Rs. 1,29,999.99",
+    priceValue: 129999,
+    image:
+      "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=500&h=500&fit=crop",
+    features: [
+      "200MP camera with AI enhancement",
+      "6.8-inch Dynamic AMOLED 2X",
+      "Built-in S Pen for productivity",
+    ],
+    specs: {
+      display: "6.8-inch",
+      battery: "5000 mAh",
+      storage: "256GB - 1TB",
+      camera: "200MP + 12MP + 50MP + 10MP",
+      processor: "Snapdragon 8 Gen 3",
+      ram: "12GB",
+    },
+  },
+  {
+    id: 3,
+    name: 'MacBook Pro 16"',
+    brand: "Apple",
+    price: "Rs. 2,49,999.99",
+    priceValue: 249999,
+    image:
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&h=500&fit=crop",
+    features: [
+      "M3 Max chip with 40-core GPU",
+      "Up to 128GB unified memory",
+      "22-hour battery life",
+    ],
+    specs: {
+      display: "16.2-inch",
+      battery: "22 hours",
+      storage: "512GB - 8TB",
+      camera: "1080p FaceTime HD",
+      processor: "M3 Max",
+      ram: "36GB - 128GB",
+    },
+  },
+  {
+    id: 4,
+    name: "Sony WH-1000XM5",
+    brand: "Sony",
+    price: "Rs. 39,999.99",
+    priceValue: 39999,
+    image:
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=500&h=500&fit=crop",
+    features: [
+      "Industry-leading noise cancellation",
+      "30-hour battery with quick charging",
+      "Premium sound with LDAC support",
+    ],
+    specs: {
+      display: "N/A",
+      battery: "30 hours",
+      storage: "N/A",
+      camera: "N/A",
+      processor: "V1 + QN1",
+      ram: "N/A",
+    },
+  },
+  {
+    id: 5,
+    name: "iPad Air M2",
+    brand: "Apple",
+    price: "$599",
+    priceValue: 599,
+    image:
+      "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500&h=500&fit=crop",
+    features: [
+      "M2 chip for desktop-class performance",
+      "10.9-inch Liquid Retina display",
+      "All-day battery life",
+    ],
+    specs: {
+      display: "10.9-inch",
+      battery: "10 hours",
+      storage: "64GB - 256GB",
+      camera: "12MP Wide",
+      processor: "Apple M2",
+      ram: "8GB",
+    },
+  },
+  {
+    id: 6,
+    name: "PlayStation 5 Slim",
+    brand: "Sony",
+    price: "Rs. 49,999.99",
+    priceValue: 49999,
+    image:
+      "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=500&h=500&fit=crop",
+    features: [
+      "Ultra-high speed SSD",
+      "Ray tracing for realistic graphics",
+      "4K gaming at 120Hz",
+    ],
+    specs: {
+      display: "4K @ 120Hz",
+      battery: "N/A",
+      storage: "1TB SSD",
+      camera: "N/A",
+      processor: "AMD Zen 2",
+      ram: "16GB GDDR6",
+    },
+  },
+  {
+    id: 7,
+    name: "Apple Watch Series 9",
+    brand: "Apple",
+    price: "Rs. 42,999.99",
+    priceValue: 42999,
+    image:
+      "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=500&h=500&fit=crop",
+    features: [
+      "Advanced health monitoring",
+      "18-hour all-day battery",
+      "Double tap gesture control",
+    ],
+    specs: {
+      display: "1.9-inch",
+      battery: "18 hours",
+      storage: "64GB",
+      camera: "N/A",
+      processor: "S9 SiP",
+      ram: "1GB",
+    },
+  },
+  {
+    id: 8,
+    name: "DJI Mini 4 Pro",
+    brand: "DJI",
+    price: "Rs. 75,999.99",
+    priceValue: 75999,
+    image:
+      "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=500&h=500&fit=crop",
+    features: [
+      "4K/60fps HDR video recording",
+      "34-minute max flight time",
+      "Omnidirectional obstacle sensing",
+    ],
+    specs: {
+      display: "N/A",
+      battery: "34 minutes",
+      storage: "N/A",
+      camera: '48MP 1/1.3" CMOS',
+      processor: "N/A",
+      ram: "N/A",
+    },
+  },
+];
